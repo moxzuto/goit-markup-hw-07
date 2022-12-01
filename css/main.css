@@ -604,6 +604,10 @@ body {
   overflow: hidden;
   z-index: -1;
 }
+.image-wrapper:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
 
 .team-images-description {
   display: -webkit-box;
@@ -636,11 +640,6 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
-}
-
-.image-wrapper:nth-child(2) {
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 .main-list-paragraph {
