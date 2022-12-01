@@ -318,6 +318,9 @@ body {
   right: 0%;
   z-index: 1;
 }
+.backdrop-button:hover {
+  fill: var(--accent-color);
+}
 
 .svg-backdrop-button {
   width: 18px;
@@ -328,10 +331,6 @@ body {
   top: 6px;
   right: 6px;
   left: 5px;
-}
-
-.backdrop-button:hover {
-  fill: var(--accent-color);
 }
 
 .form-elements-backdrop {
@@ -421,9 +420,7 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.form-list-link:hover,
-.form-list-link:focus-within {
+.form-list-link:hover, .form-list-link:focus-within {
   fill: var(--accent-color);
 }
 
@@ -525,7 +522,6 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-form:hover {
   background: #188ce8;
 }
