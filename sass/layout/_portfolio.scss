@@ -89,10 +89,10 @@
     padding: 6px 22px;
     text-align: center;
     border: 1px solid transparent;
-  }
-  
-  .portfolio-button-text:hover,
-  .portfolio-button-text:focus {
+
+
+    &:hover,
+    &:focus {
     color: var(--background-color);
     background-color: var(--accent-color);
     padding: 6px 22px;
@@ -104,6 +104,9 @@
   
     box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
   }
+  }
+  
+
   
   .portfolio-button-list {
     padding-right: 8px;

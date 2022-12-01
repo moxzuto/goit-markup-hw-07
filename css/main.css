@@ -1208,9 +1208,7 @@ body {
   text-align: center;
   border: 1px solid transparent;
 }
-
-.portfolio-button-text:hover,
-.portfolio-button-text:focus {
+.portfolio-button-text:hover, .portfolio-button-text:focus {
   color: var(--background-color);
   background-color: var(--accent-color);
   padding: 6px 22px;
