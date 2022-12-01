@@ -884,16 +884,15 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-color);
 }
+.footer-map:hover {
+  color: var(--accent-color);
+}
 
 .footer-contacts {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer-map:hover {
-  color: var(--accent-color);
 }
 
 .footer-contacts:hover,
@@ -1021,34 +1020,27 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .footer-input::-webkit-input-placeholder {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input::-moz-placeholder {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input:-ms-input-placeholder {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input::-ms-input-placeholder {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 .footer-input::placeholder {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
-.footer-input:hover,
-.footer-input:focus {
+.footer-input:hover, .footer-input:focus {
   border: 1px solid #2196f3;
 }
 
@@ -1080,7 +1072,6 @@ body {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .button-footer-form:hover {
   background-color: #188ce8;
 }

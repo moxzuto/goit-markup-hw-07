@@ -41,6 +41,10 @@
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
     color: var(--background-color);
+
+    &:hover {
+      color: var(--accent-color);
+    }
   }
   
   .footer-contacts {
@@ -48,12 +52,6 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #ffffff99;
-  }
-  
-  
-  
-  .footer-map:hover {
-    color: var(--accent-color);
   }
   
   .footer-contacts:hover,
@@ -164,16 +162,16 @@
   
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .footer-input::placeholder {
+    
+    &::placeholder {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-  }
-  
-  .footer-input:hover,
-  .footer-input:focus {
+    }
+    
+    &:hover,
+    &:focus {
     border: 1px solid #2196f3;
+    }
   }
   
   .button-footer-form {
@@ -196,10 +194,10 @@
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .button-footer-form:hover {
-    background-color: #188ce8;
+
+    &:hover {
+      background-color: #188ce8;
+    }
   }
   
   .telegram-footer-icon {
