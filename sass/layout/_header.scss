@@ -95,9 +95,8 @@
     display: inline-block;
     margin-right: 9px;
     cursor: pointer;
+
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
-  
-  .header-icon:hover {
-    fill: var(--accent-color);
-  }
-  
