@@ -75,7 +75,7 @@
     transform: translate(0%, 0%);
   }
   
-  .modal-form-title {
+  .modal__form-title {
     position: absolute;
     font-weight: 700;
     font-size: 20px;
@@ -151,7 +151,7 @@
   
   
 
-  .form-list-link {
+  .form-list__item {
     margin-bottom: 10px;
   
     transition-duration: 250ms;
@@ -203,7 +203,7 @@
   }
   
   
-  .button-form-text {
+  .button-form__text {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;

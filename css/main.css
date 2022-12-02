@@ -71,7 +71,7 @@ body {
   line-height: 1.3636363636;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-color);
+  color: #ffffff;
   margin-bottom: 30px;
   margin-top: 0;
   width: 70%;
@@ -331,7 +331,7 @@ body {
           transform: translate(0%, 0%);
 }
 
-.modal-form-title {
+.modal__form-title {
   position: absolute;
   font-weight: 700;
   font-size: 20px;
@@ -405,14 +405,14 @@ body {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-list-link {
+.form-list__item {
   margin-bottom: 10px;
   -webkit-transition-duration: 250ms;
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.form-list-link:hover, .form-list-link:focus-within {
+.form-list__item:hover, .form-list__item:focus-within {
   fill: #2196f3;
 }
 
@@ -478,7 +478,7 @@ body {
   padding-left: 6px;
 }
 
-.button-form-text {
+.button-form__text {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
