@@ -38,7 +38,7 @@
     height: 30px;
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: var(--background-color);
+    background-color: $background-color;
   
     margin-right: 8px;
     margin-top: 8px;
@@ -50,7 +50,7 @@
     z-index: 1;
   
     &:hover {
-        fill: var(--accent-color)
+        fill: $accent-color
     }
   }
 
@@ -84,7 +84,7 @@
     text-align: center;
     letter-spacing: 0.03em;
   
-    color: var(--main-color);
+    color: $main-color;
   
   
     top: 5%;
@@ -108,7 +108,7 @@
   }
   
   .checkbox-list-policy input {
-    color: var(--main-color);
+    color: $main-color;
     margin-right: 8px;
   }
   
@@ -160,7 +160,7 @@
     
     &:hover,
     &:focus-within {
-        fill: var(--accent-color)
+        fill: $accent-color
     }
   }
   

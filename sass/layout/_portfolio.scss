@@ -66,7 +66,7 @@
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;
-    color: var(--main-color);
+    color: $main-color;
   }
   
   .portfolio-paragraph {
@@ -74,7 +74,7 @@
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
-    color: var(--second-color);
+    color: $second-color;
   }
   
   .portfolio-button-text {
@@ -84,7 +84,7 @@
     font-size: 16px;
     line-height: 26px;
     letter-spacing: 0.03em;
-    color: var(--main-color);
+    color: $main-color;
     border-radius: 4px;
     padding: 6px 22px;
     text-align: center;
@@ -93,8 +93,8 @@
 
     &:hover,
     &:focus {
-    color: var(--background-color);
-    background-color: var(--accent-color);
+    color: $background-color;
+    background-color: $accent-color;
     padding: 6px 22px;
     border-radius: 4px;
   
