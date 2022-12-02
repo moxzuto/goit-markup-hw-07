@@ -8,7 +8,7 @@
   gap: 30px;
 }
 
-.main-link-item {
+.main-link__item {
   flex-basis: calc((100% - 90px) / 4);
 }
 
@@ -16,7 +16,7 @@
   padding-bottom: 94px;
 }
 
-.image-wrapper {
+.team-image-wrapper {
   position: relative;
   overflow: hidden;
   z-index: -1;
@@ -77,7 +77,7 @@
   margin-bottom: 55px;
 }
 
-.icon-main-div {
+.icon-main__div {
   background-color: #f5f4fa;
 }
 
