@@ -65,6 +65,16 @@ body {
   overflow: hidden;
 }
 
+.image-wrapper {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+.image-wrapper:nth-child(2) {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
 .hero-text {
   font-weight: 900;
   font-size: 44px;
@@ -590,16 +600,6 @@ body {
 
 .team-section {
   padding-bottom: 94px;
-}
-
-.team-image-wrapper {
-  position: relative;
-  overflow: hidden;
-  z-index: -1;
-}
-.team-image-wrapper:nth-child(2) {
-  margin-right: 30px;
-  margin-left: 30px;
 }
 
 .team-images-description {
