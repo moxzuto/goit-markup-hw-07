@@ -18,7 +18,9 @@
   }
   
   .clients-logo:hover,
-  .logo-items:hover {
+  .logo-items:hover,
+  .clients-logo:focus,
+  .logo-items:focus {
     fill: $accent-color;
     border-color: $accent-color;
   

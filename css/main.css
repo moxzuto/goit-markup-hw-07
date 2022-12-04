@@ -789,7 +789,9 @@ body {
 }
 
 .clients-logo:hover,
-.logo-items:hover {
+.logo-items:hover,
+.clients-logo:focus,
+.logo-items:focus {
   fill: #2196f3;
   border-color: #2196f3;
   -webkit-transition-duration: 250ms;
@@ -1233,7 +1235,8 @@ body {
   margin-top: 94px;
 }
 
-.portfolio-main__link-button:hover {
+.portfolio-main__link-button:hover,
+.portfolio-main__link-button:focus {
   display: block;
   -webkit-box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.3);
